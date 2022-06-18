@@ -33,7 +33,7 @@ After that I moved onto some real-world-data cases, developing three different e
 
 Further details can be found in the 'Practical Examples' section below in this `README.md`.
 
-*Note.* A good [dataset resource](https://data.princeton.edu/wws509/datasets) for linear regression, logistic regression, poisson regression, multinomial responses, survival data.<br>
+*Note.* A good [dataset resource](https://data.princeton.edu/wws509/datasets) for linear/logistic/poisson regression, multinomial responses, survival data.<br>
 *Note.* To further explore feature selection: [source 1](https://machinelearningmastery.com/rfe-feature-selection-in-python/), [source 2](https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection), [source 3](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_selection), [source 4](https://towardsdatascience.com/feature-selection-for-the-lazy-data-scientist-c31ba9b4ee66), [source 5](https://towardsdatascience.com/learn-how-to-do-feature-selection-the-right-way-61bca8557bef).
 
 ## 📚 **Theoretical Overview** 

@@ -37,11 +37,11 @@ Further details can be found in the 'Practical Examples' section below in this `
 *Note.* To further explore feature selection: [source 1](https://machinelearningmastery.com/rfe-feature-selection-in-python/), [source 2](https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection), [source 3](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_selection), [source 4](https://towardsdatascience.com/feature-selection-for-the-lazy-data-scientist-c31ba9b4ee66), [source 5](https://towardsdatascience.com/learn-how-to-do-feature-selection-the-right-way-61bca8557bef).
 
 ## 📚 **Theoretical Overview** 
-A generalized linear model (GLM) is a flexible generalization of ordinary linear regression. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a *link function*. In a generalized linear model, the outcome $\mathbf{Y}$(dependent variable) is assumed to be generated from a particular distribution in a family of exponential distributions (e.g. Normal, Binomial, Poisson, Gamma). The mean $\mathbf{\mu}$ of the distribution depends on the independent variables $\mathbf{X}$ through the relation: 
+A generalized linear model (GLM) is a flexible generalization of ordinary linear regression. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a *link function*. In a generalized linear model, the outcome <span> $\mathbf{Y}$ </span> (dependent variable) is assumed to be generated from a particular distribution in a family of exponential distributions (e.g. Normal, Binomial, Poisson, Gamma). The mean <span> $\mathbf{\mu}$ </span> of the distribution depends on the independent variables <span> $\mathbf{X}$ </span> through the relation: 
 
 $$\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}] = \boldsymbol{\mu} = g^{-1}(\boldsymbol{X}\,\boldsymbol{\beta})$$
 
-where $\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}]$ is the expected value of $\boldsymbol{Y}$ conditioned to $\boldsymbol{X}$, $\boldsymbol{X}\,\boldsymbol{\beta}$ is the linear predictor and $g(\cdot)$ is the link function. The unknown parameters $\boldsymbol{\beta}$ are typically estimated with maximum likelihood and [IRLS techniques](https://en.wikipedia.org/wiki/Iteratively_reweighted_least_squares).
+where <span> $\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}]$ </span> is the expected value of <span> $\boldsymbol{Y}$ </span> conditioned to <span> $\boldsymbol{X}$ </span>, <span> $\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta}$ </span> is the linear predictor and <span> $g(\cdot)$ </span> is the link function. The unknown parameters <span> $\boldsymbol{\beta}$ </span> are typically estimated with maximum likelihood and [IRLS techniques](https://en.wikipedia.org/wiki/Iteratively_reweighted_least_squares).
 
 🟥 *For the sake of clarity, from now on we consider the case of the ***scalar*** outcome, $Y$.*
 
@@ -66,11 +66,7 @@ The following are the most famous/used examples.
 </center>
 
 ## 📂 **Practical Examples**
-As already mentioned, let:
-* $Y$ be the outcome (dependent variable)
-* $\mathbf{X}$ be the independent variables
-
-The three types of regression I analyzed (*Linear*, *Logistic* and *Poisson*) differ in the nature of $Y$. For each type, I collected an ad-hoc dataset to experiment with. 
+As already mentioned, let <span> $Y$ </span> be the outcome (dependent variable) and <span> $\mathbf{X}$ </span> be the independent variables. The three types of regression I analyzed (*Linear*, *Logistic* and *Poisson*) differ in the nature of $Y$. For each type, I collected an ad-hoc dataset to experiment with. 
 
 ------------------------
 

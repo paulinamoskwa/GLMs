@@ -37,7 +37,7 @@ Further details can be found in the 'Practical Examples' section below in this `
 *Note.* To further explore feature selection: [source 1](https://machinelearningmastery.com/rfe-feature-selection-in-python/), [source 2](https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection), [source 3](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_selection), [source 4](https://towardsdatascience.com/feature-selection-for-the-lazy-data-scientist-c31ba9b4ee66), [source 5](https://towardsdatascience.com/learn-how-to-do-feature-selection-the-right-way-61bca8557bef).
 
 ## 📚 **Theoretical Overview** 
-A generalized linear model (GLM) is a flexible generalization of ordinary linear regression. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a *link function*. In a generalized linear model, the outcome $\mathbf{Y}$ (dependent variable) is assumed to be generated from a particular distribution in a family of exponential distributions (e.g. Normal, Binomial, Poisson, Gamma). The mean $\mathbf{\mu}$ of the distribution depends on the independent variables $\mathbf{X}$ through the relation: 
+A generalized linear model (GLM) is a flexible generalization of ordinary linear regression. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a *link function*. In a generalized linear model, the outcome $\mathbf{Y}$(dependent variable) is assumed to be generated from a particular distribution in a family of exponential distributions (e.g. Normal, Binomial, Poisson, Gamma). The mean $\mathbf{\mu}$ of the distribution depends on the independent variables $\mathbf{X}$ through the relation: 
 
 $$\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}] = \boldsymbol{\mu} = g^{-1}(\boldsymbol{X}\,\boldsymbol{\beta})$$
 
@@ -73,10 +73,10 @@ As already mentioned, let $Y$ be the outcome (dependent variable) and let $\bold
 ### 📑 **Linear Regression**
 In the case of linear regression $Y$ is a real number and it is modeled as:
 
-$\qquad\begin{cases}
+$$\qquad\begin{cases}
     \;Y\sim N(\mu,\sigma^2)\\
     \;\mu = \boldsymbol{X}\,\boldsymbol{\beta}
-\end{cases}$
+\end{cases}$$
 
 As a case study for linear regression i analyzed a dataset of human brain weights.
 * [Exploratory Data Analysis (EDA)](https://github.com/PaulinoMoskwa/GLMs/blob/master/2.%20Linear%20Regression/1.%20Exploratory%20Data%20Analysis%20(EDA).ipynb)
@@ -90,10 +90,10 @@ As a case study for linear regression i analyzed a dataset of human brain weight
 ### 📑 **Logistic Regression**
 In the case of logistic regression $Y$ is a categorical value ($0$ or $1$) and it is modeled as:
 
-$\qquad\begin{cases}
+$$\qquad\begin{cases}
     \;Y \sim Bernoulli(\mu)\\
     \;\log(\frac{\mu}{1-\mu}) = \boldsymbol{X}\,\boldsymbol{\beta}
-\end{cases}$
+\end{cases}$$
 
 As a case study for logistic regression i analyzed an HR dataset.
 * [Exploratory Data Analysis (EDA)](https://github.com/PaulinoMoskwa/GLMs/blob/master/3.%20Logistic%20Regression/1.%20Exploratory%20Data%20Analysis%20(EDA).ipynb)
@@ -108,10 +108,10 @@ For *Advanced Classification techniques with Scikit-Learn* check out [Breast Can
 ### 📑 **Poisson Regression**
 In the case of poisson regression $Y$ is a positive integer (count) and it is modeled as:
 
-$\qquad\begin{cases}
+$$\begin{cases}
     \;Y \sim Poisson(\mu)\\
     \;\log(\mu) = \boldsymbol{X}\,\boldsymbol{\beta}
-\end{cases}$
+\end{cases}$$
 
 As a case study for poisson regression i analyzed a dataset of smoking and lung cancer.
 * [Exploratory Data Analysis (EDA)](https://github.com/PaulinoMoskwa/GLMs/blob/master/4.%20Poisson%20Regression/1.%20Exploratory%20Data%20Analysis%20(EDA).ipynb)

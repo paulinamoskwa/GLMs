@@ -109,8 +109,8 @@ For *Advanced Classification techniques with Scikit-Learn* check out [Breast Can
 In the case of poisson regression $Y$ is a positive integer (count) and it is modeled as:
 
 $$\begin{cases}
-    \quad Y \sim Poisson(\mu)\\
-    \hspace{2pt}\log(\mu) = \boldsymbol{X}\,\boldsymbol{\beta}
+     Y \sim Poisson(\mu)\\
+    \hspace{4pt}\log(\mu) = \boldsymbol{X}\,\boldsymbol{\beta}
 \end{cases}$$
 
 As a case study for poisson regression i analyzed a dataset of smoking and lung cancer.

@@ -110,7 +110,7 @@ In the case of poisson regression $Y$ is a positive integer (count) and it is mo
 
 $$\begin{cases}
     \quad Y \sim Poisson(\mu)\\
-    \quad\log(\mu) = \boldsymbol{X}\,\boldsymbol{\beta}
+    \hspace{2pt}\log(\mu) = \boldsymbol{X}\,\boldsymbol{\beta}
 \end{cases}$$
 
 As a case study for poisson regression i analyzed a dataset of smoking and lung cancer.

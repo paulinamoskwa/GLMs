@@ -75,7 +75,7 @@ In the case of linear regression $Y$ is a real number and it is modeled as:
 
 $$\begin{cases}
     \hspace{4pt} Y\sim N(\mu,\sigma^2)\\
-    \hspace{4pt} \mu = \boldsymbol{X}\,\boldsymbol{\beta}
+    \hspace{4pt} \mu = \boldsymbol{X}\hspace{2pt}\boldsymbol{\beta}
 \end{cases}$$
 
 As a case study for linear regression i analyzed a dataset of human brain weights.
@@ -92,7 +92,7 @@ In the case of logistic regression $Y$ is a categorical value ($0$ or $1$) and i
 
 $$\begin{cases}
     \hspace{4pt} Y \sim Bernoulli(\mu)\\
-    \hspace{4pt} \log(\frac{\mu}{1-\mu}) = \boldsymbol{X}\,\boldsymbol{\beta}
+    \hspace{4pt} \log(\frac{\mu}{1-\mu}) = \boldsymbol{X}\hspace{2pt}\boldsymbol{\beta}
 \end{cases}$$
 
 As a case study for logistic regression i analyzed an HR dataset.
@@ -110,7 +110,7 @@ In the case of poisson regression $Y$ is a positive integer (count) and it is mo
 
 $$\begin{cases}
     \hspace{4pt} Y \sim Poisson(\mu)\\
-    \hspace{4pt}\log(\mu) = \boldsymbol{X}\,\boldsymbol{\beta}
+    \hspace{4pt}\log(\mu) = \boldsymbol{X}\hspace{2pt}\boldsymbol{\beta}
 \end{cases}$$
 
 As a case study for poisson regression i analyzed a dataset of smoking and lung cancer.

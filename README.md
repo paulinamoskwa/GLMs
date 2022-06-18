@@ -43,7 +43,7 @@ $$\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}] = \boldsymbol{\mu} = g^{-1}(\boldsym
 
 where <span> $\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}]$ </span> is the expected value of <span> $\boldsymbol{Y}$ </span> conditioned to <span> $\boldsymbol{X}$ </span>, <span> $\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta}$ </span> is the linear predictor and <span> $g(\cdot)$ </span> is the link function. The unknown parameters <span> $\boldsymbol{\beta}$ </span> are typically estimated with maximum likelihood and [IRLS techniques](https://en.wikipedia.org/wiki/Iteratively_reweighted_least_squares).
 
-🟥 *For the sake of clarity, from now on we consider the case of the ***scalar*** outcome, $Y$.*
+🟥 *For the sake of clarity, from now on we consider the case of the ***scalar*** outcome,* $Y$.
 
 Every GLM consists of three elements:
 1. a distribution (from the family of exponential distributions) for modeling $Y$

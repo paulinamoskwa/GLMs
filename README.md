@@ -66,7 +66,7 @@ The following are the most famous/used examples.
 </center>
 
 ## 📂 **Practical Examples**
-As already mentioned, let $Y$ be the outcome (dependent variable) and let $\mathbf{X}$ be the independent variables. The three types of regression I analyzed (*Linear*, *Logistic* and *Poisson*) differ in the nature of $Y$. For each type, I collected an ad-hoc dataset to experiment with. 
+As already mentioned, let $`Y`$ be the outcome (dependent variable) and let $`\mathbf{X}`$ be the independent variables. The three types of regression I analyzed (*Linear*, *Logistic* and *Poisson*) differ in the nature of $`Y`$. For each type, I collected an ad-hoc dataset to experiment with. 
 
 ------------------------
 

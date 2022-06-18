@@ -74,8 +74,8 @@ As already mentioned, let $Y$ be the outcome (dependent variable) and let $\bold
 In the case of linear regression $Y$ is a real number and it is modeled as:
 
 $$\begin{cases}
-    \quad Y\sim N(\mu,\sigma^2)\\
-    \quad\mu = \boldsymbol{X}\,\boldsymbol{\beta}
+    \hspace{4pt} Y\sim N(\mu,\sigma^2)\\
+    \hspace{4pt} \mu = \boldsymbol{X}\,\boldsymbol{\beta}
 \end{cases}$$
 
 As a case study for linear regression i analyzed a dataset of human brain weights.
@@ -91,8 +91,8 @@ As a case study for linear regression i analyzed a dataset of human brain weight
 In the case of logistic regression $Y$ is a categorical value ($0$ or $1$) and it is modeled as:
 
 $$\begin{cases}
-    \quad Y \sim Bernoulli(\mu)\\
-    \quad\log(\frac{\mu}{1-\mu}) = \boldsymbol{X}\,\boldsymbol{\beta}
+    \hspace{4pt} Y \sim Bernoulli(\mu)\\
+    \hspace{4pt} \log(\frac{\mu}{1-\mu}) = \boldsymbol{X}\,\boldsymbol{\beta}
 \end{cases}$$
 
 As a case study for logistic regression i analyzed an HR dataset.
@@ -109,7 +109,7 @@ For *Advanced Classification techniques with Scikit-Learn* check out [Breast Can
 In the case of poisson regression $Y$ is a positive integer (count) and it is modeled as:
 
 $$\begin{cases}
-     Y \sim Poisson(\mu)\\
+    \hspace{4pt} Y \sim Poisson(\mu)\\
     \hspace{4pt}\log(\mu) = \boldsymbol{X}\,\boldsymbol{\beta}
 \end{cases}$$
 

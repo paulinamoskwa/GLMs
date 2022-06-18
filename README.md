@@ -48,7 +48,7 @@ where $\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}]$ is the expected value of $\bol
 Every GLM consists of three elements:
 1. a distribution (from the family of exponential distributions) for modeling $Y$
 2. a linear predictor $\boldsymbol{X}\,\boldsymbol{\beta}$
-3. a link function $g(\cdot)$ such that $\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}] = \boldsymbol{\mu} = g^{-1}(\boldsymbol{X}\,\boldsymbol{\beta})$
+3. a link function <p>$g(\cdot)$</p> such that $\mathbb{E}[\boldsymbol{Y}|\boldsymbol{X}] = \boldsymbol{\mu} = g^{-1}(\boldsymbol{X}\,\boldsymbol{\beta})$
 
 The following are the most famous/used examples.
 

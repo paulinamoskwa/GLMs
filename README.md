@@ -54,19 +54,19 @@ The following are the most famous/used examples.
 
 <center>
 
-|Distribution|Support|Typical uses|$\mu=\mathbb{E}[Y\|\boldsymbol{X}]$|Link function <br>$\boldsymbol{X}\,\boldsymbol{\beta} = g(\mu)$|Link name|Mean function|
+|Distribution|Support|Typical uses|$\mu=\mathbb{E}[Y\|\boldsymbol{X}]$|Link function <br>$\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta} = g(\mu)$|Link name|Mean function|
 |:-|:-|:-|:-:|:-|:-|:-|
-|Normal $(\mu,\sigma^2)$|$(-\infty, \infty)$|Linear-response data|$\mu$|$\boldsymbol{X}\,\boldsymbol{\beta} = \mu$|Identity|$\mu = \boldsymbol{X}\,\boldsymbol{\beta}$|
-|Gamma $(\mu,\nu)$|$(0,\infty)$|Exponential-response data|$\mu$|$\boldsymbol{X}\,\boldsymbol{\beta} = -\mu^{-1}$|Negative inverse|$\mu = -(\boldsymbol{X}\,\boldsymbol{\beta})^{-1}$|
-|Inverse-Gaussian $(\mu,\sigma^2)$|$(0, \infty)$||$\mu$|$\boldsymbol{X}\,\boldsymbol{\beta} = \mu^{-2}$|Inverse squared|$\mu = (\boldsymbol{X}\,\boldsymbol{\beta})^{-1/2}$|
-|Poisson $(\mu)$|$\{0, 1, 2, ..\}$|Count of occurrences in a fixed <br>amount of time/space|$\mu$|$\boldsymbol{X}\,\boldsymbol{\beta} = \ln(\mu)$|Log|$\mu = \exp(\boldsymbol{X}\,\boldsymbol{\beta})$|
-|Bernoulli $(\mu)$|$\{0, 1\}$|Outcome of single yes/no occurrence|$\mu$|$\boldsymbol{X}\,\boldsymbol{\beta} = \ln(\frac{\mu}{1-\mu})$|Logit|$\mu = \frac{1}{1+\exp(-\boldsymbol{X}\,\boldsymbol{\beta})}$|
-|Binomial $(n, \mu)$|$\{0, 1, .., n\}$|Count of yes/no in $n$ occurrences|$n\,\mu$|$\boldsymbol{X}\,\boldsymbol{\beta} = \ln(\frac{\mu}{1-\mu})$|Logit|$\mu = \frac{1}{1+\exp(-\boldsymbol{X}\,\boldsymbol{\beta})}$|
+|Normal $(\mu,\sigma^2)$|$(-\infty, \infty)$|Linear-response data|$\mu$|$\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta} = \mu$|Identity|$\mu = \boldsymbol{X}\hspace{1pt}\boldsymbol{\beta}$|
+|Gamma $(\mu,\nu)$|$(0,\infty)$|Exponential-response data|$\mu$|$\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta} = -\mu^{-1}$|Negative inverse|$\mu = -(\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta})^{-1}$|
+|Inverse-Gaussian $(\mu,\sigma^2)$|$(0, \infty)$||$\mu$|$\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta} = \mu^{-2}$|Inverse squared|$\mu = (\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta})^{-1/2}$|
+|Poisson $(\mu)$|$\{0, 1, 2, ..\}$|Count of occurrences in a fixed <br>amount of time/space|$\mu$|$\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta} = \ln(\mu)$|Log|$\mu = \exp(\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta})$|
+|Bernoulli $(\mu)$|$\{0, 1\}$|Outcome of single yes/no occurrence|$\mu$|$\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta} = \ln(\frac{\mu}{1-\mu})$|Logit|$\mu = \frac{1}{1+\exp(-\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta})}$|
+|Binomial $(n, \mu)$|$\{0, 1, .., n\}$|Count of yes/no in $n$ occurrences|$n\hspace{1pt}\mu$|$\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta} = \ln(\frac{\mu}{1-\mu})$|Logit|$\mu = \frac{1}{1+\exp(-\boldsymbol{X}\hspace{1pt}\boldsymbol{\beta})}$|
 
 </center>
 
 ## 📂 **Practical Examples**
-As already mentioned, let $Y$ be the outcome (dependent variable) and let $\boldsymbol{X}$ be the independent variables. The three types of regression I analyzed (*Linear*, *Logistic* and *Poisson*) differ in the nature of $Y$. For each type, I collected an ad-hoc dataset to experiment with. 
+As already mentioned, let $Y$ be the outcome (dependent variable) and let $\mathbf{X}$ be the independent variables. The three types of regression I analyzed (*Linear*, *Logistic* and *Poisson*) differ in the nature of $Y$. For each type, I collected an ad-hoc dataset to experiment with. 
 
 ------------------------
 
